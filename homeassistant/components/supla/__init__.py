@@ -28,16 +28,10 @@ CONF_SERVERS = "servers"
 SCAN_INTERVAL = timedelta(seconds=10)
 
 SUPLA_FUNCTION_HA_CMP_MAP = {
-<<<<<<< HEAD
-    "CONTROLLINGTHEROLLERSHUTTER": Platform.COVER,
-    "CONTROLLINGTHEGATE": Platform.COVER,
-    "LIGHTSWITCH": Platform.SWITCH,
-=======
     "CONTROLLINGTHEROLLERSHUTTER": "cover",
     "CONTROLLINGTHEGATE": "cover",
     "LIGHTSWITCH": "switch",
     "POWERSWITCH": "switch",
->>>>>>> Add suppoer for Supla POWERSWITCH device.
 }
 SUPLA_FUNCTION_NONE = "NONE"
 SUPLA_SERVERS = "supla_servers"
